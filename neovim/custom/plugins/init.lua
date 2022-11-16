@@ -41,6 +41,8 @@ return {
     end,
   },
 
+  ['github/copilot.vim'] = { },
+
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
 }
