@@ -11,6 +11,12 @@ M.treesitter = {
     "kotlin",
     "java",
     "python",
+    "kotlin",
+    "bash",
+    "markdown",
+    "json", "jsonc", "json5",
+    "dockerfile", "go",
+    "sql",
   },
 }
 
@@ -21,10 +27,15 @@ M.mason = {
     "stylua",
 
     -- web dev stuff
-    "css-lsp",
-    "html-lsp",
-    "typescript-language-server",
-    "deno",
+    "css-lsp", "html-lsp", "typescript-language-server", "deno",
+
+    --shell
+    "bash-language-server", "bash-debug-adapter",
+
+    -- "pyright", "",
+
+    -- JVM
+    "jdtls", "java-debug-adapter", "kotlin-language-server", "ktlint",
   },
 }
 
