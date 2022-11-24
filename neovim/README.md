@@ -1,4 +1,4 @@
-<p align="center"><img width=8% src="../assets/neovim.svg">
+<p align="center"><img width=10% src="../assets/neovim.png">
 <h1 align="center">NvChad</h1>
 
 > This is a custom neovim config for the NvChad UI customization
