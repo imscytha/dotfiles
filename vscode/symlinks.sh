@@ -42,7 +42,7 @@ function symlink {
 		printf "."
 		sleep .4
 	done
-	if ln -sfn "$(pwd)/$SYMFILEXDIR" "$CONFIG_DIR"
+	if ln -sfn "$(pwd)/${SYMFILEXDIR}c" "$CONFIG_DIR/${SYMFILEXDIR}"
 	then
 		printf "\n%s  %s\n" "${BOLD}${GREEN}===>${RESET}" "Symbolic link created successfully${RESET}" 
 		START="Now you can start $TOOL and run ${BOLD}:PackerSync${RESET}"
