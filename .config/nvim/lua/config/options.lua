@@ -28,6 +28,10 @@ vim.opt.wildignore:append({ ".DS_Store" })
 -- Use rounded borders for floating windows.
 vim.o.winborder = "rounded"
 
+-- Wrap long lines at words.
+vim.o.wrap = true
+vim.o.linebreak = true
+
 -- Save undo history.
 vim.o.undofile = true
 
