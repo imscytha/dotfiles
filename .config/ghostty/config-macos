@@ -1,0 +1,8 @@
+macos-option-as-alt = true
+macos-window-shadow = false
+quit-after-last-window-closed = true
+mouse-hide-while-typing = true
+macos-titlebar-style = hidden
+window-padding-y = 4
+window-padding-x = 4
+# keybind = global:alt+enter=toggle_quick_terminal
