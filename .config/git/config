@@ -1,0 +1,18 @@
+[fetch]
+    prune = true
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nvim
+
+[push]
+    autoSetupRemote = true
+
+[user]
+    name = Scytha
+    email = imscytha@protonmail.com
+
+[includeIf "gitdir/i:~/Developer/Spaxel/Repos/"]
+    path = ~/.config/git/work-config
