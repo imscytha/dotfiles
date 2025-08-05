@@ -8,6 +8,7 @@ fi
 #                                      .NET
 # =============================================================================
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_ROOT="/usr/local/share/dotnet"
 
 # =============================================================================
 #                                NVM (node stuff)
@@ -26,3 +27,9 @@ export PATH="$PATH:$ANDROID_HOME/platform-tools"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/emulator"
+
+# =============================================================================
+#                                     Java
+# =============================================================================
+export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
+export PATH="$PATH:$JAVA_HOME/bin"

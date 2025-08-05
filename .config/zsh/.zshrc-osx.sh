@@ -18,4 +18,4 @@ alias scytha='cd $HOME/Developer/Scytha/'
 # [2]: https://ss64.com/mac/diff.html
 # [3]: https://man7.org/linux/man-pages/man1/diff.1.html
 # [4]: https://git-scm.com/docs/git-diff
-alias diff='git diff --no-index'
+alias diff='git diff --no-index --color=always'
