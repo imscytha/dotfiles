@@ -40,8 +40,8 @@ fi
 #                                 ZSH completion
 # =============================================================================
 fpath=($ZDOTDIR/completions $fpath)
-autoload -Uz compinit
-compinit
+fpath=($HOME/.docker/completions $fpath)
+autoload -Uz compinit && compinit
 
 source <(fzf --zsh)
 
