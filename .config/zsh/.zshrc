@@ -33,7 +33,16 @@ zstyle ':completion:*' menu select
 #                           Platform specific configs
 # =============================================================================
 if [[ "$OS" == "Darwin" ]]; then
-    source "$ZDOTDIR/.zshrc-osx.sh"
+    source "$ZDOTDIR/.zshrc.osx"
+elif [[ "$OS" == "Linux" ]]; then
+    # TODO: define my linux zprofile
+fi
+
+# =============================================================================
+#                                   Secrets
+# =============================================================================
+if [[ -f "$ZDOTDIR/.secrets" ]]; then
+    source "$ZDOTDIR/.secrets"
 fi
 
 # =============================================================================
