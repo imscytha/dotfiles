@@ -8,6 +8,11 @@ fi
 #                                      .NET
 # =============================================================================
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_ROOT="/usr/local/share/dotnet"
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_ENVIRONMENT=Localhost                            # don't even ask
+export DOTNET_TOOLS="$HOME/.dotnet/tools"
+export PATH="$PATH:$DOTNET_TOOLS"
 
 # =============================================================================
 #                                NVM (node stuff)
