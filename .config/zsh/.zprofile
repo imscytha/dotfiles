@@ -10,7 +10,7 @@ OS=$(uname)
 if [[ "$OS" == "Darwin" ]]; then
     source "$ZDOTDIR/.zprofile.osx"
 elif [[ "$OS" == "Linux" ]]; then
-    # TODO: define my linux zprofile
+    source "$ZDOTDIR/.zprofile.linux"
 fi
 
 # =============================================================================
