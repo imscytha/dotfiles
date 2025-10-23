@@ -43,7 +43,7 @@ zstyle ':completion:*' menu select
 if [[ "$OS" == "Darwin" ]]; then
     source "$ZDOTDIR/.zshrc.osx"
 elif [[ "$OS" == "Linux" ]]; then
-    # TODO: define my linux zprofile
+    source "$ZDOTDIR/.zshrc.linux"
 fi
 
 # =============================================================================
