@@ -18,9 +18,3 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 #                                     Java
 # =============================================================================
 export JAVA_HOME="/Applications/Android Studio.app/Contents/jbr/Contents/Home"
-
-# =============================================================================
-#                                      .NET
-# =============================================================================
-export DOTNET_ROOT="/usr/local/share/dotnet"
-export DOTNET_TOOLS="$HOME/.dotnet/tools"

@@ -16,10 +16,11 @@ fi
 # =============================================================================
 #                                      .NET
 # =============================================================================
+export DOTNET_ROOT="/usr/local/share/dotnet"
+export DOTNET_TOOLS="$HOME/.dotnet/tools"
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export DOTNET_ENVIRONMENT=Development
 export PATH="$PATH:$DOTNET_TOOLS"
-export DOTNET_CLI_TELEMETRY_OPTOUT=1
-export DOTNET_CLI_TELEMETRY_OPTOUT=1
-export DOTNET_ENVIRONMENT=Localhost                            # don't even ask
 
 # =============================================================================
 #                                    Android
