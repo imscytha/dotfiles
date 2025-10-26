@@ -2,5 +2,8 @@
 
 !.gitignore
 !.zprofile*
-!.zshrc*
+!.zshrc
 !.p10k.zsh
+
+!.zshrc.d/
+!.zshrc.d/**
