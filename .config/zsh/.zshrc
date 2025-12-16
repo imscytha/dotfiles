@@ -9,11 +9,5 @@ load_zsh_dir() {
     fi
 }
 
-case "$(uname -s)" in
-    Linux*)  PLATFORM="linux" ;;
-    Darwin*) PLATFORM="mac" ;;
-    *)       PLATFORM="unknown" ;;
-esac
-
 load_zsh_dir $ZSHRC_DIR
-load_zsh_dir "$ZSHRC_DIR/$PLATFORM"
+load_zsh_dir "$ZSHRC_DIR/$_PLATFORM"

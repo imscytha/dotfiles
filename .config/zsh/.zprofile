@@ -1,4 +1,10 @@
-OS=$(uname)
+case "$(uname -s)" in
+    Linux*)  export _PLATFORM="linux" ;;
+    Darwin*) export _PLATFORM="mac" ;;
+    *)       export _PLATFORM="unknown" ;;
+esac
+
+ZPROFILE_DIR="$ZDOTDIR/.zprofile.d"
 
 # =============================================================================
 #                           Platform specific configs
@@ -7,11 +13,7 @@ OS=$(uname)
 #       platform (e.g `JAVA_HOME`, `DOTNET_ROOT`, etc.)
 # WARN: The following configuration depends on these variables being set in
 #       advance.
-if [[ "$OS" == "Darwin" ]]; then
-    source "$ZDOTDIR/.zprofile.osx"
-elif [[ "$OS" == "Linux" ]]; then
-    source "$ZDOTDIR/.zprofile.linux"
-fi
+source "$ZPROFILE_DIR/.zprofile.$_PLATFORM"
 
 # =============================================================================
 #                                      .NET
