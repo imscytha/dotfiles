@@ -3,3 +3,6 @@
 -- Add any additional options here
 vim.g.autoformat = false
 vim.opt.colorcolumn = "80"
+
+vim.opt.list = true
+vim.opt.listchars = { space = "⋅", trail = "⋅", tab = "  ↦" }
