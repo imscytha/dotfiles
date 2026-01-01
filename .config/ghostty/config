@@ -1,7 +1,7 @@
-background = #181818
+background = #080808
 background-opacity = 0.75
 
-font-family = "JetBrainsMono Nerd Font"
+font-family = "Maple Mono NF"
 font-size = 12
 
 shell-integration-features = no-cursor
@@ -11,6 +11,6 @@ cursor-style-blink = true
 confirm-close-surface = false
 
 # TODO: look into sourcing the config only on the correct environment
-# config-file = ?config-macos
+config-file = ?config-macos
 
 # TODO: prettify the config
